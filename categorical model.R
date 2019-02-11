@@ -9,7 +9,7 @@ library(e1071)
 library(neuralnet)
 library(nnet)
 
-setwd("/Users/wangyuexi/Desktop/all")
+setwd("/Users/Desktop/all")
 housing_cat <- fread("housing_cat.csv")[,-1]
 set.seed(12345)
 housing_cat$SalePrice <- as.factor(housing_cat$SalePrice)
