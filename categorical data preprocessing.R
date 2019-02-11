@@ -1,5 +1,5 @@
 # read into data
-setwd("/Users/wangyuexi/Desktop/all")
+setwd("/Users/Desktop/all")
 housing_con <- read.csv("housing_con.csv")[, -1]
 # scale proce back, and group into 4 classes. 
 housing_con$SalePrice <- exp(housing_con$SalePrice)
