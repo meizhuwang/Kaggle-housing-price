@@ -11,7 +11,7 @@ library(nnet)
 library(dummies)
 
 
-setwd('/Users/wangyuexi/Desktop/all')
+setwd('/Users/Desktop/all')
 housing_con <- fread("housing_con.csv")[, -c(1, 4)]
 housing_cat <- fread("housing_cat.csv")[, -c(1, 4)]
 
