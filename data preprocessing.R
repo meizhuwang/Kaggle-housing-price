@@ -1,5 +1,5 @@
 library(data.table)
-setwd('/Users/wangyuexi/Desktop/all')
+setwd('/Users/Desktop/all')
 train <- fread("train.csv")[, -1]
 test <- fread("test.csv")[, -1]
 sample_submission <- fread("sample_submission.csv")[, -1]
